@@ -1,0 +1,498 @@
+.container {
+  overflow-x: hidden;
+}
+
+/* section1 */
+
+.section1 {
+  position: relative;
+  padding: 0%;
+  margin: 0%;
+  min-height: 100vh;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: end;
+}
+
+.section1Img {
+  position: absolute;
+  top: 0%;
+  width: 100%;
+}
+
+.section1text {
+  z-index: 9;
+  max-width: 32rem;
+  color: white;
+  padding-bottom: 4.6rem;
+  margin-inline: auto;
+}
+
+.section1text h1 {
+  font-family: "Fraunces", "serif";
+  font-size: 38px;
+  font-weight: normal;
+}
+
+.section1text p {
+  font-family: "Lato", "serif";
+  font-size: 1.25rem;
+  line-height: 1.4;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.hero {
+  object-fit: fill;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.heroMobile {
+  display: none;
+}
+
+.section1Btn {
+  background-color: #ff97a8;
+  border-radius: 50px;
+  padding: 1rem 2rem;
+  font-family: "Lato", "serif";
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  gap: 2px;
+  margin: auto;
+}
+
+/* section2 */
+
+.section2 {
+  padding: 5rem;
+  max-width: 96rem;
+  margin: auto;
+}
+
+.section2 h2 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.5rem;
+  font-family: "Fraunces", "serif";
+  line-height: 1.33;
+  margin-bottom: 2rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 1.5rem;
+}
+
+.card {
+  border-radius: 20px;
+  background-color: white;
+  padding: 1.5rem;
+  box-shadow: 0 0 16px 2px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #384252;
+}
+
+.Cardmain h3 {
+  font-size: 21px;
+  font-family: "Fraunces", "serif";
+  margin: 0.5rem 0;
+  font-weight: 400;
+}
+
+.Cardmain p {
+  font-family: "Lato", "serif";
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  color: #959aa2;
+  line-height: 1.5rem;
+}
+
+.cardImg {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+/* section 3 */
+
+.section3 {
+  background: url("../../Assets/images/sky.png");
+  height: 597px;
+  color: white;
+  padding: 4rem 1.5rem;
+  background-position: 50%;
+  background-size: cover;
+}
+
+.section3 h2 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.33;
+  font-family: "Fraunces", "serif";
+  margin-bottom: 2rem;
+}
+
+.section3Main {
+  display: flex;
+  flex-direction: column;
+  max-width: 36rem;
+  margin-inline: auto;
+  align-items: start;
+  color: white;
+}
+
+.paths {
+  display: flex;
+  flex-direction: column;
+  gap: 53px;
+}
+
+.path {
+  display: flex;
+  align-items: flex-start;
+  text-align: start;
+  gap: 24px;
+  position: relative;
+}
+
+.logoContainer {
+  background-color: #51658e;
+  padding: 1.25rem;
+  border-radius: 0.5rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  flex-shrink: 0;
+}
+
+.logo {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.pathText h3 {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Lato", "serif";
+  margin-bottom: 0.25rem;
+  margin-top: 0px;
+}
+.pathText p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Lato", "serif";
+  color: #cccfd6;
+  margin-bottom: 0px;
+}
+
+.downArrow {
+  position: absolute;
+  height: 45px;
+  width: 42px;
+  top: -3rem;
+  left: 5rem;
+}
+
+.twistedArrow {
+  position: absolute;
+  height: 64px;
+  width: 48px;
+  top: -3rem;
+  left: 8.5rem;
+}
+
+/* section 4 */
+
+.section4 {
+  padding: 5rem 0;
+  background-color: rgb(249, 250, 251);
+}
+
+.section4Main {
+  width: 550px;
+  text-align: center;
+  margin: auto;
+  padding: 0 1.5rem;
+  box-sizing: border-box;
+}
+
+.section4Main h2 {
+  font-size: 1.875rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.section4Main h2 span {
+  font-family: "Fraunces", "serif";
+  font-size: 1.5rem;
+  font-weight: normal;
+  line-height: 1.33;
+}
+
+.section4Main h2 img {
+  position: absolute;
+  right: 2.2rem;
+  top: -0.1rem;
+}
+
+.section4text1 {
+  font-family: "Lato", "serif";
+  color: #384252;
+  font-size: 16px;
+  margin-bottom: 1.5rem;
+}
+
+.section4text2 {
+  font-family: "Lato", "serif";
+  color: #384252;
+  font-size: 16px;
+  margin-bottom: 1.5rem;
+}
+
+.section4text2 span {
+  font-weight: 700;
+  font-size: 22px;
+  font-family: "Lato", "serif";
+  color: black;
+}
+
+.section4text3 {
+  font-family: "Lato", "serif";
+  color: #384252;
+  font-size: 16px;
+  margin-bottom: 1.5rem;
+}
+
+.familyImg {
+  border-radius: 0.5rem;
+  max-width: 32rem;
+  width: 100%;
+  margin-inline: auto;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* section 5 */
+
+.section5 {
+  height: 433px;
+  position: relative;
+}
+
+.bgimg {
+  background: url("../../Assets/images/girls.png");
+  height: 100%;
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+}
+
+.section5Main {
+  position: relative;
+  z-index: 10;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  max-width: 28rem;
+  margin: auto;
+  padding-inline: 1.5rem;
+}
+
+.section5Main h1 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: "Fraunces", "serif";
+  margin-bottom: 0.5rem;
+  margin-top: 8px;
+}
+.section5Main p {
+  font-family: "Lato", "serif";
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 1.5rem;
+}
+
+.section5Btn {
+  padding: 0.75rem 2rem;
+  color: black;
+  background-color: #ff97a8;
+  border-radius: 50px;
+  width: 100%;
+  font-family: "Lato", "serif";
+  font-size:  18px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px auto 0px auto;
+  border: 0px;
+  cursor: pointer;
+  box-shadow: 0px 5px 7px 0px rgba(255, 255, 255, 0.3),
+    1px 1px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* footer */
+
+.footer {
+  background-color: #3a4e78;
+  color: white;
+  padding-block: 4rem;
+}
+
+.logoImg {
+  width: 7.25rem;
+  margin-bottom: 2rem;
+}
+
+.instagram {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+.instagramLogo {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.instagram a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Lato", "serif";
+  color: white;
+  line-height: 1.5;
+}
+
+.link {
+  margin-top: 4rem;
+  font-size: 16px;
+  font-family: "Lato", "serif";
+  color: white;
+  font-weight: 500;
+}
+
+.linkedin {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 1rem;
+}
+
+@media screen and (max-width: 1280px) {
+  .section2 {
+    max-width: 1024px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .section2 {
+    max-width: 768px;
+  }
+  .cards {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section2 {
+    max-width: 600px;
+    padding: 1.5rem;
+  }
+
+  .section2 h2 {
+    text-align: start;
+  }
+  .section4Main {
+    width: 360px;
+  }
+
+  .section4Main h2 {
+    text-align: start;
+  }
+  .section4text1,
+  .section4text2,
+  .section4text3 {
+    text-align: start;
+  }
+  .section4Main h2 img {
+    right: 0.45rem;
+  }
+  .hero {
+    display: none;
+  }
+  .heroMobile {
+    display: block;
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+  }
+  .section1text {
+    text-align: left;
+   
+  }
+
+  .section1text h1{
+    font-size: 27px;
+  }
+  .section1Btn {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .section1text {
+    padding: 5rem 1rem;
+  }
+  .section2 {
+    max-width: 100%;
+    padding: 1.5rem;
+  }
+
+  .cards {
+    grid-template-columns: auto;
+  }
+
+  .section3 h2 {
+    text-align: left;
+  }
+  .familyImg {
+    border-radius: 0.5rem;
+    max-width: 32rem;
+    width: 100%;
+  }
+  .bgimg {
+    background: url("../../Assets/images/girlMobile.png");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: 50%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .section4Main {
+    width: auto;
+  }
+}
